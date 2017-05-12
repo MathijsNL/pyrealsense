@@ -66,8 +66,8 @@ install:
   # install librealsense
 
   - "%CMD_IN_ENV% git clone https://github.com/IntelRealSense/librealsense.git"
-    "%CMD_IN_ENV% cd librealsense"
-    "%CMD_IN_ENV% git checkout v1.12.1"  
+  - "%CMD_IN_ENV% cd librealsense"
+  - "%CMD_IN_ENV% git checkout v1.12.1"  
 
   # export the env variables for pyrealsense
 
